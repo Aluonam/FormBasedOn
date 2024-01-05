@@ -3,7 +3,7 @@ import style from './HeaderTitle.module.css'
 
 const HeaderTitle = () => {
   return (
-    <div>HeaderTitle</div>
+    <div className={style.headerTitleContainer}>HeaderTitle</div>
   )
 }
 
