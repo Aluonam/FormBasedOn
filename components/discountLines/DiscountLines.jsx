@@ -3,7 +3,7 @@ import style from './DiscountLines.module.css'
 
 const DiscountLines = () => {
   return (
-    <div>DiscountLines</div>
+    <div className={style.discountLinesContainer}>DiscountLines</div>
   )
 }
 
