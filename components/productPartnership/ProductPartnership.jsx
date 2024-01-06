@@ -3,7 +3,7 @@ import style from './ProductPartnership.module.css'
 
 const ProductPartnership = () => {
   return (
-    <div>ProductPartnership</div>
+    <div className={style.partnershipContainer}>ProductPartnership</div>
   )
 }
 
