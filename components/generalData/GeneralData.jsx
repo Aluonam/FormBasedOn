@@ -6,6 +6,10 @@ const GeneralData = () => {
 
   const { register, handleSubmit } = useForm();
 
+  const onSubmit = (data) => {
+    console.log(data);
+  };
+
   return (
     <div className={style.generalDataContainer}>
       
@@ -43,6 +47,8 @@ const GeneralData = () => {
           <input type='checkbox'/>
         </div>
 
+        <input type='submit' value='Enviar' />
+        
       </form>
 
     </div>
