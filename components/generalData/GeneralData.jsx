@@ -17,6 +17,13 @@ const GeneralData = () => {
           <label>Código cliente</label>
           <input type='text'/>
         </div>
+        <div>
+          <label>Nombre del plan</label>
+          <input type='text'/>
+          
+          <label>Descripción del plan</label>
+          <input type='text'/>
+        </div>
         
 
       </form>
