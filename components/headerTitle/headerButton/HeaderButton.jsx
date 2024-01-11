@@ -3,7 +3,7 @@ import { Button, Flex } from 'antd';
 
 const HeaderButton = () => (
   <Flex gap="small" wrap="wrap">
-    <Button type="link">Atrás</Button>
+    <Button type="link">&lt; Atrás</Button>
   </Flex>
 );
 export default HeaderButton;

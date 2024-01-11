@@ -2,12 +2,12 @@ import React from 'react'
 import style from './HeaderTitle.module.css'
 import HeaderButton from './headerButton/HeaderButton'
 
-const HeaderTitle = () => {
+const HeaderTitle = ({titleForm}) => {
   return (
     <div className={style.headerTitleContainer}>
       
       <HeaderButton></HeaderButton>
-      <h2>Crear plan de compra</h2>
+      <h2>{titleForm}</h2>
       
       </div>
   )

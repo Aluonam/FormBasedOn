@@ -8,7 +8,7 @@ import style from './ScreenForm.module.css'
 const ScreenForm = () => {
   return (
     <div className={style.screenFormGlobalContainer}>
-      <HeaderTitle></HeaderTitle>
+      <HeaderTitle titleForm={"Crear plan de compra"}></HeaderTitle>
       <GeneralData></GeneralData>
       <DiscountLines></DiscountLines>
       <ProductPartnership></ProductPartnership>
