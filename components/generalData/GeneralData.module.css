@@ -3,14 +3,17 @@
     height: 400px;
     background-color: rgb(145, 145, 211);
     
-
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
 }
 .generalDataForm{
+
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
     gap: 20px;
+    align-items: flex-start;
     
 
 }
