@@ -2,5 +2,15 @@
     width: 100%;
     height: 400px;
     background-color: rgb(145, 145, 211);
+    
+
+}
+.generalDataForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
 
 }

@@ -9,7 +9,7 @@ const GeneralData = () => {
   return (
     <div className={style.generalDataContainer}>
       
-      <form>
+      <form className={style.generalDataForm}>
         <div>
           <label>Entidad</label>
           <input type='text'/>
