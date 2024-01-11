@@ -24,6 +24,13 @@ const GeneralData = () => {
           <label>Descripción del plan</label>
           <input type='text'/>
         </div>
+        <div>
+          <label>Fecha de inicio</label>
+          <input type='text'/>
+          
+          <label>Fecha de fin</label>
+          <input type='text'/>
+        </div>
         
 
       </form>
