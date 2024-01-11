@@ -31,7 +31,16 @@ const GeneralData = () => {
           <label>Fecha de fin</label>
           <input type='text'/>
         </div>
-        
+        <div>
+          <label>Estado</label>
+          <input type='text'/>
+          
+          <label>Renovación automática</label>
+          <input type='checkbox'/>
+
+          <label>Forzar mercancia pendiente</label>
+          <input type='checkbox'/>
+        </div>
 
       </form>
 
